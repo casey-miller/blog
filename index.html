@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume & Developer Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=mail" />
+    <style>
+        :root {
+            --primary-color: #eceff4;
+            --nav-color: #4c566a;
+            --header-color: #3b4252;
+            --footer-color: #3b4252;
+            --background-color: #2e3440;
+            --highlight-color: #5e81ac;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Fira Sans', sans-serif;
+            font-weight: 300;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--background-color);
+        }
+
+        header {
+            background: var(--header-color);
+            color: var(--primary-color);
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        nav {
+            background: var(--nav-color);
+            color: --var(primary-color);
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .home-box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            text-align: center;
+        }
+
+        .home-box div {
+            background-color: rgba(94, 129, 172, 0.2);
+            border: 1px solid var(--highlight-color);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            color: var(--primary-color);
+            font-size: 2rem;
+            box-shadow: 0 0 10px var(--highlight-color);
+        }
+
+        .home-box div p {
+            font-size: 1.0rem;
+        }
+
+        /* .resume-section, .blog-section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 0.5rem;
+        }
+
+        .resume-item {
+            margin-bottom: 1rem;
+        }
+
+        .resume-item h3 {
+            margin: 0;
+            color: #023e8a;
+        }
+
+        .blog-post {
+            margin-bottom: 2rem;
+        }
+
+        .blog-post h3 {
+            margin: 0;
+            color: #0077b6;
+        } */
+
+        footer {
+            background: var(--footer-color);
+            color: var(--primary-color);
+            font-size: 1rem;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 1.5;
+            gap: 0.5rem;
+        }
+
+        .email-address {
+            vertical-align: top;
+        }
+
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            display: inline-block;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.5rem;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 250,
+                'GRAD' -25,
+                'opsz' 20
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#blog">blog</a>
+        <a href="https://www.github.com/casey-miller" target="_blank">github</a>
+    </nav>
+    <div class="home-box">
+        <div>
+            <h2>Welcome to my blog</h2>
+            <p>By day, I’m a solutions architect, systems administrator, and occasional data analyst working in higher
+                ed. </br>Here, I’ll share the lessons learned, tools discovered, and stories from my work.</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <span class="material-symbols-outlined">mail</span>
+            <span class="email-address">casey [at] casey-miller.com</span>
+        </div>
+    </footer>
+</body>
+
+</html>
